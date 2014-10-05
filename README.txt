@@ -12,6 +12,8 @@ Gets started building a plugin using the WordPress Plugin Boilerplate in seconds
 
 == Description ==
 
+This is a plugin for WordPress plugin developers. If you don't understand what `PHP`, `HTML`, `CSS`, `add_action` and `apply_filters` are then this plugin is not for you!
+
 The [WordPress Plugin Boilerplate](https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate) is a fantastic tool for standardising WordPress plugins, and encouraging developers to use best practices. But manual editing of every file to enter the name of the plugin, the author name and all the other metadata is a bit of a chore. This plugin automates that process, giving you a simple form to enter your metadata, then when you hit the 'Build' button your new plugin is created with all the correct metadata.
 
 But there's more. You can also define Custom Post Types and even other custom classes which will have .php files created automatically, and all the relevant code to include those files in your plugin. Once your plugin is built you can, of course, edit the files in any way you want to add extra methods.
@@ -47,6 +49,8 @@ My guess is Plugin Builder will save you 2-4 hours work, and make your plugins m
 When your plugin is built the settings for it will be saved so you can rebuild your plugin at any time (this will overwrite any changes you've made manually) or make a few changes and create a new plugin.
 
 == Installation ==
+
+I recommend you install this only on your development environment, so you can open your new plugins and continue your development. There's no point installing it on a live site!
 
 1. Upload the `plugin-builder` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
