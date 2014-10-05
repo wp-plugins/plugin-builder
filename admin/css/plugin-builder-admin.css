@@ -1,0 +1,51 @@
+.plugin-builder label.inline {
+    float: left;
+    width: 20%;
+}
+.plugin-builder .label-indent {
+    padding-left: 20%;
+}
+.plugin-builder input,
+.plugin-builder textarea{
+    width: 79%;
+}
+.plugin-builder input.button, 
+.plugin-builder input.button-primary,
+.plugin-builder input.cb {
+    width: auto;
+}
+.plugin-builder textarea {
+    height: 6em;
+}
+.plugin-builder input.medium {
+    width: 30%;
+}
+.plugin-builder .show-if-js {
+    display: none;
+}
+.js .plugin-builder .show-if-js {
+    display: inline-block;
+}
+.js .plugin-builder .hide {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+.plugin-register-tabs li {
+    display: inline;
+}
+#build_button {
+    float: right;
+    margin-right: 1em;
+    font-size: 1.4em;
+    height: 1.6em;
+}
+.plugin-builder .include-container {
+    margin-top: 1em;
+    padding-top: 1em;
+    border: 1px solid #ddd;
+    border-width: 1px 0 0 0;
+}
