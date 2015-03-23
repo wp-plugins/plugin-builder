@@ -21,7 +21,7 @@
 class Plugin_Builder_Plugin_CPT {
 
 	/**
-	 * Register the VoucherPress Template Custom Post Type with WordPress.
+	 * Register the Plugin_Builder Plugin Custom Post Type with WordPress.
 	 *
 	 * @since    2.0.0
 	 */

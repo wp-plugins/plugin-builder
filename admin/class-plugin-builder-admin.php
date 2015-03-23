@@ -122,8 +122,8 @@ class Plugin_Builder_Admin {
 	
 		add_submenu_page(
 			'plugins.php', 
-			__( 'Builder', 'voucherpress' ), 
-			__( 'Builder', 'voucherpress' ), 
+			__( 'Builder', 'plugin_builder' ), 
+			__( 'Builder', 'plugin_builder' ), 
 			'edit_posts', 
 			'plugin-builder', 
 			array( $this, 'render_page' ) 
