@@ -1,21 +1,22 @@
 <?php
 
 /**
- * Contains global functions
+ * Global helper functions.
  *
- * * @link       http://voucherpress.com
- * @since      2.0.0
+ * @link       http://www.stillbreathing.co.uk/wordpress/plugin-builder
+ * @since      1.0.0
  *
- * @package    VoucherPress
- * @subpackage VoucherPress/includes
+ * @package    Plugin_Builder
+ * @subpackage Plugin_Builder/includes
  */
 
 /**
- * Contains global functions
+ * Defines useful global functions.
  *
- * @package    Plugin Builder
+ * @since      1.0.0
+ * @package    Plugin_Builder
  * @subpackage Plugin_Builder/includes
- * @author     Yorkshire Twist <support@yorkshiretwist.com>
+ * @author     Chris Taylor
  */
 
 if ( ! function_exists( 'array_insert' ) ) {
